@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const images = ["/palm.jpg", "/jungle2.jpg", "/plants.jpg", "/three.jpg", "/blue.jpg", "/red.jpeg", "/duck.jpg"];
+  const images = ["/oranges.jpg", "/lily.jpg", "/palm.jpg", "/jungle2.jpg", "/plants.jpg"];
   const [selected, setSelected] = useState<string | null>(null)
 
   const handleClick = (url: string) => {
